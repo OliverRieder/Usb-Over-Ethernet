@@ -1,0 +1,143 @@
+What is a USB Redirector Server?
+
+
+USB Network Gate is a professional USB redirector application developed by Eltima Software. You can use this communication solution to share multiple USB ports and devices with remote users over a network. Using an IP-based network such as your LAN, VPN, WAN or the Internet, remote client computers can gain access to shared USB devices. Connecting through the USB Redirector Server enables the remote computers to use the USB peripherals with the full functionality of a local connection.
+ 
+Internally, USB Network Gate is comprised of a server and client component which are combined in a single application. Only the server requires registration. Clients don’t need to be registered and they can continue to be used to access devices after the trial period ends. The server that shares the devices does need to be registered.
+ 
+This USB Redirector software can be run on the Windows, Linux or macOS operating systems. It offers a true cross-platform solution supporting any combination of servers and clients. Share devices attached to any type of server with all supported clients without compatibility issues.
+ 
+Let’s investigate a server implementation of USB Redirector running on a Windows machine.
+ 
+USB Redirector Server for Windows
+ 
+ 
+The first step in sharing a USB device remotely is to connect it directly to a port on the USB Redirector Server. You will obtain the best results by using a port that is already connected to a device you wish to share.
+ 
+You can share the port before plugging in a device. The only requirement is that you know which is the available port. 
+ 
+In the example below, we will demonstrate how to connect to the USB server that has a device already attached. Here’s how USB Redirector lets you share a local device over a network.
+
+
+ 
+1. Switch to the Local USB devices tab.
+ 
+2. Select the USB device you want to share with network-attached users and click Share.
+ 
+That’s all there is to it! 
+
+
+Customizing USB Redirector Server’s settings 
+ 
+Various settings can be customized to provide a configuration that fits your requirements. Some of the connection settings that can be modified include encryption, compression, and TCP port. You can also password protect a port or device to limit access to authorized users.
+ 
+Sharing settings can be dynamically changed.
+ 
+ 
+ 
+3.1 TCP:
+ 
+– set the TCP port that you want used to establish the connection;
+ 
+– or initiate callback connection with the Connect to remote client option. This setting enables the server to initiate a client connection.
+ 
+3.2 Password authorization enables you to create a secure connection. Client connections need to provide the proper password in order to successfully communicate with the server.
+ 
+3.3 You can label your USB devices with custom names in the Device description field. The client and server will both reference the device by this name, making it easier to identify.
+ 
+3.4 Traffic compression can reduce network bandwidth requirements and increase data transmission to specific USB device types. This setting is only useful with certain kinds of uncompressed data such as that sent from scanners. Isochronous USB devices like webcams will not benefit from traffic compression and turning it on may waste system resources. These devices are already compressing data before transmission and further compression may degrade the information.
+ 
+3.5 Traffic encryption will secure data transmission by encrypting it before it is sent. This may slow throughput but will protect your data.
+ 
+3.6 Allow disconnection by other users – This option enables remote clients to disconnect other clients from a shared USB device.
+ 
+
+ 
+Using the View → Show USB port location assists in differentiating between multiple USB devices of the same type on your system.
+ 
+
+ 
+Tip: Sharing problems may be resolved by physically disconnecting the device from its port. Share the interface through the application and plug the device back into the port. 
+ 
+You should now be able to access the shared USB device from the client side.
+ 
+ 
+USB Redirector Server is sharing your USB ports rather than the devices. This enables you to freely disconnect one device and connect a different one. The newly attached device immediately appears and is available for client use with no configuration necessary.
+ 
+ 
+
+USB Redirector Server for Linux
+ 
+The first step in sharing a USB device remotely is to connect it to a shared interface on the USB redirector server. Best results are achieved by sharing a port after plugging in the device you want to access remotely. If you are certain that you know which port is free, you can share it before attaching a peripheral device.
+ 
+The following example demonstrates how to use the application with a device already plugged in. This is how USB Network Gate works with a previously attached device.
+ 
+ 
+ 
+1. Select the Share local USB devices tab.
+ 
+2. Click Share after selecting the device you want to share.
+ 
+
+ 
+3. The Share USB device window will be displayed. In this window, you can obtain supplemental information concerning the USB devices such as its serial number and manufacturer.
+ 
+Additional settings can be customized:
+ 
+
+ 
+3.1 Initiate connections to clients from the server side with a callback (reverse) connection.
+ 
+3.2 Set the TCP port that you want to be employed with the connection.
+ 
+3.3 Traffic compression can be enabled to increase communication speed and reduce network bandwidth usage. Changes to this parameter do not affect existing connections. They only apply to newly opened connections.
+ 
+Compression increases CPU load and must be used wisely to have any demonstrable effect on data transmission. You should only enable this option on uncompressed data like that generated by scanners. Webcams and other isochronous USB devices do not benefit from traffic compression. In many cases, the data is already compressed by the device and attempts at further compression can lead to data degradation.
+ 
+You can also select the traffic compression algorithm – best or fast. Fast is the default setting.
+  
+Traffic compression algorithm can be changed under Options in the main menu:
+ 
+
+ 
+3.4 Enabling password authorization allows you to password protect a connection to ensure its security. To establish a connection, the client must use the same password.
+ 
+3.5 You can enable traffic encryption to secure data while it is in transit. This setting encrypts all data but may slow down the speed of communication with the attached devices.
+ 
+3.6 Use the Description field to create custom labels for shared USB devices. Naming devices descriptively makes it easier for users to locate the specific piece of equipment with which they want to connect.
+ 
+Names can be changed dynamically by double-clicking the device description and making the desired changes in the displayed window.
+ 
+ 
+
+ 
+4. Click OK in the Share USB device window.
+ 
+5. When the USB device is successfully shared, its icon will change to this: .
+ 
+Tip: If you have problems sharing the device you may be successful by unplugging from the port. Share the port first and then reattach the device. You should be able to share it at this point.
+ 
+6. Now you can access the shared USB device from the client side.
+  
+ 
+ 
+USB Redirector Server for Mac
+ 
+To shared devices on a macOS computer, perform the following steps.
+ 
+ Launch USB Network Gate.
+
+
+Click Local pane from the top of the window.
+
+
+ 
+ 3. The Local pane displays a list of the currently connected USB devices. Select the device you wish to share and if it not visible, reconnect it and try again.
+ 4. Click the Share button.
+ 5. Configure sharing options for the USB device.
+ 6. Click Share after making the configuration changes.
+ 7. The USB device is now shared and is available for connection by client computers.
+ 
+ 
+
+
