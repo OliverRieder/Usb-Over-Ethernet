@@ -19,6 +19,7 @@ You can share the port before plugging in a device. The only requirement is that
 In the example below, we will demonstrate how to connect to the USB server that has a device already attached. Here’s how USB Redirector lets you share a local device over a network.
 
 
+
  
 1. Switch to the Local USB devices tab.
  
