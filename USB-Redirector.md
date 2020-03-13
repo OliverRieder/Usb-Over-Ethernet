@@ -1,7 +1,7 @@
 <h1>What is a USB Redirector Server?</h1>
 
 
-USB Network Gate is a professional <a href="https://www.net-usb.com/usb-redirector/">USB redirector</a> application developed by Eltima Software. You can use this communication solution to share multiple USB ports and devices with remote users over a network. Using an IP-based network such as your LAN, VPN, WAN or the Internet, remote client computers can gain access to shared USB devices. Connecting through the USB Redirector Server enables the remote computers to use the USB peripherals with the full functionality of a local connection.
+USB Network Gate is a professional <a href="https://www.net-usb.com/usb-redirector/">USB redirector</a> application developed by Electronic Team Inc.. You can use this communication solution to share multiple USB ports and devices with remote users over a network. Using an IP-based network such as your LAN, VPN, WAN or the Internet, remote client computers can gain access to shared USB devices. Connecting through the USB Redirector Server enables the remote computers to use the USB peripherals with the full functionality of a local connection.
  
 Internally, USB Network Gate is comprised of a server and client component which are combined in a single application. Only the server requires registration. Clients don’t need to be registered and they can continue to be used to access devices after the trial period ends. The server that shares the devices does need to be registered.
  
